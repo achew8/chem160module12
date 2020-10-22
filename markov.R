@@ -11,4 +11,3 @@ for (i in 1:200) {
 	n<-p%*%n 
 	} 
 cat("Final pops",n,"\n")
-
