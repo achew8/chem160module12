@@ -5,7 +5,8 @@ p[1,2]<-0.40
 p[2,2]<-0.60 
 n<-matrix(0,2,1) 
 n[1,1]<-50 
-n[2,1]<-50 cat("Initial pops",n,"\n") 
+n[2,1]<-50 
+cat("Initial pops",n,"\n") 
 for (i in 1:200) { 
 	n<-p%*%n 
 	} 
