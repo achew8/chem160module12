@@ -1,5 +1,6 @@
 r <- list()
-for (i in 1:10) {  r[[i]] <- sample(1:6,i,replace=TRUE) 
+for (i in 1:10) { 
+	r[[i]] <- sample(1:6,i,replace=TRUE) 
 } 
 for (i in r) {
 	cat(i,"\n")
