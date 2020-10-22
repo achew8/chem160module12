@@ -9,5 +9,5 @@ s[1,1]<-10
 cat("Initial pops",s,"\n") 
 for (i in 1:25) { 
 	s<-p%*%s 
-	}
+}
 cat("Final pops",s,"\n")
